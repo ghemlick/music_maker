@@ -160,25 +160,25 @@ beats = 0
 
 if time == "2/4":
 
-  beats = 2
+    beats = 2
   
 elif time == "3/4":
 
-  beats = 3
+    beats = 3
   
 elif time == "4/4":
 
-  beats = 4
+    beats = 4
   
 else:
 
-  print("Error: please enter a valid time signature.")
+    print("Error: please enter a valid time signature.")
 
 measures = int(input("Enter a number of measures between 1-16:"))
 
 for i in range(measures * beats):
 
-  print(notes[random.randint(0, 6)])
+    print(notes[random.randint(0, 6)])
 
 ##############################################################
 
