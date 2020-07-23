@@ -5,7 +5,7 @@ Designed by Gabrielle Hemlick
 Summer 2018
 
 
-Desired Input and Output
+## Desired Input and Output
 
 Input:
 1. Ask user for a key signature
@@ -18,7 +18,7 @@ Example: if there are 4 measures of 3/4 in D, it should print 12 notes in the ke
 
 
 
-Provided Data
+## Provided Data
 
 Key Signatures as Lists:
 C = ["C", "D", "E", "F", "G", "A", "B"]
@@ -42,7 +42,7 @@ Number of Measures:
 
 
 
-Steps to get started
+## Steps to get started
 1.	Try figuring out the logic of this project on paper.
 Example: 
 1. ask for inputs
@@ -57,7 +57,7 @@ notes = []
 "Error: please enter a valid key signature."
 
 
-Hint
+## Hint
 
 -	The code above the comment line is the “source code” and the code below the line is what the user will see. I made a function to handle the key signature. 
 -	See if you can make functions to handle the time signature and number of measures. 
